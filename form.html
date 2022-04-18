@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="main-heading">
+                <h1>Job Application</h1>
+            </div>
+            <div class="heading">
+                <h2>Personal Information</h2>
+            </div>
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Name</h5>
+                    <div class="first_name">
+                        <input type="text" id="fname" class="input" />
+                        <label for="fname">First name:</label>
+                    </div>
+
+                    <div class="last_name">
+                        <input type="text" id="lname" class="input" />
+                        <label for="fname">Last name:</label>
+                    </div>
+                </div>
+            </form>
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <label for="email"><h5>Email</h5></label>
+                    <div class="email">
+                        <input type="email" id="email" name="email" class="input" size="40" placeholder="user@example.com" />
+                    </div>
+                </div>
+            </form>
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <label for="email"><h5>Education</h5></label>
+                    <div class="education">
+                        <select id="education" name="education">
+                            <option disabled="disabled" selected="selected">Please Choose</option>
+                            <option value="BSC">BSC</option>
+                            <option value="MSc">MSc</option>
+                            <option value="Mphill">Mphill</option>
+                            </select>
+                    </div>
+                </div>
+            </form>
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <label for="resume"><h5>Resume</h5></label>
+                    <div class="choose_file">
+                        <input class="resume" type="file" id="myFile" name="filename">
+                    </div>
+                </div>
+            </form>
+            <form>
+                <div class="wrap">
+                    <h5>Address</h5>
+                    <div class="address_wrap">
+                        <div class="address_one">
+                            <input type="text" id="address_one" size="50" class="input" />
+                            <label for="address_one">Address 1</label>
+                        </div>
+                        <div class="address_two">
+                            <input type="text" id="address_two" size="50" class="input" />
+                            <label for="address_two">Address 2</label>
+                        </div>
+                        <div class="country">
+                            <select id="country" name="country">
+                                <option disabled="disabled" selected="selected">Select a Country</option>
+                                <option value="UK">UK</option>
+                                <option value="UAE">UAE</option>
+                                <option value="USA">USA</option>
+                                </select>
+                            <label for="country">Country</label>
+                        </div>
+                        <div class="wrap">
+                            <div class="city">
+                                <input type="text" id="city" class="input" />
+                                <label for="city">City</label>
+                            </div>
+                            <div class="state">
+                                <input type="text" id="state" class="input" />
+                                <label for="state">State</label>
+                            </div>
+                            <div class="zip_code">
+                                <input type="number" id="zip_code" class="input" />
+                                <label for="zip_code">Zip Code</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Phone Number</h5>
+                    <div class="phone_number">
+                        <input type="number" id="number" class="input number_one" style="width: 10%;" />
+                        <input type="number" id="number" class="input number_two" style="width: 80%;" />
+                    </div>
+                </div>
+            </form>
+            <form>
+                <label for="hobbies"><h5>What are your hobbies?</h5></label><br>
+                <input type="text" id="hobbies" name="hobbies" style="width: 100%;" class="input">
+
+            </form>
+
+            <div class="heading">
+                <h2>Previuos/Current Employment Details</h2>
+            </div>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Compnay Name</h5>
+                    <div class="company_name">
+                        <input type="text" id="cname" class="input" style="width: 375px;" />
+                    </div>
+                </div>
+            </form>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Job Title</h5>
+                    <div class="job_title">
+                        <input type="text" id="jtitle" class="input" style="width: 375px;" />
+                    </div>
+                </div>
+            </form>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>How long were writing?</h5>
+                    <div class="general_info">
+                        <input type="text" id="ginfo" class="input" style="width: 375px;" />
+                    </div>
+                </div>
+            </form>
+
+
+            <div class="heading">
+                <h2>Reference#1</h2>
+            </div>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Name</h5>
+                    <div class="name">
+                        <input type="text" id="name" class="input" style="width: 375px;" />
+                    </div>
+                </div>
+            </form>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Phone</h5>
+                    <div class="number">
+                        <input type="number" id="jtitle" class="input" style="width: 375px;" />
+                    </div>
+                </div>
+            </form>
+
+
+            <div class="heading">
+                <h2>Reference#2</h2>
+            </div>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Name</h5>
+                    <div class="name">
+                        <input type="text" id="name" class="input" style="width: 375px;" />
+                    </div>
+                </div>
+            </form>
+
+            <form action="/action_page.php">
+                <div class="wrap">
+                    <h5>Phone</h5>
+                    <div class="number">
+                        <input type="number" id="jtitle" class="input" style="width: 375px;" />
+                    </div>
+                </div>
+            </form>
+
+
+            <button class="submit">Apply</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

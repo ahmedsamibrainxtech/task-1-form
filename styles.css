@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.container {
+    max-width: 45%;
+    margin: auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.main {
+    max-width: 100%;
+    border: 1px solid #cecece;
+    box-shadow: none;
+    height: auto;
+    border-top: solid #650205;
+    border-width: 20px 1px 1px 1px;
+    padding: 1rem;
+}
+
+.main-heading {
+    text-align: center;
+    color: #96040c
+}
+
+.heading {
+    margin-top: 1rem;
+    color: #96040c
+}
+
+form {
+    margin-top: 1rem;
+}
+
+.input,
+.resume {
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+
+.input,
+select,
+.resume {
+    border: 1px solid #ccc;
+}
+
+.first_name,
+.last_name,
+.address_one,
+.address_two,
+.country,
+.city,
+.state,
+.zip_code {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5rem 0 0;
+    font-size: 0.6vw;
+}
+
+.address_one,
+.address_two,
+.country,
+.city,
+.state,
+.zip_code {
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+}
+
+.address_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width: 200px;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+}
+
+.resume {
+    width: 350px;
+}
+
+.country select {
+    width: 375px;
+}
+
+.state,
+.number_one {
+    width: 60px;
+}
+
+.zip_code {
+    width: 80px;
+}
+
+.number_two {
+    width: 300px;
+}
+
+h5 {
+    width: 175px;
+    font-weight: 300;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background: rgb(100, 4, 4);
+    color: #ffffff;
+    font-size: 13px;
+    height: 25px;
+    width: 65px;
+    border-radius: 3px;
+    border: 0;
+    margin-top: 1rem;
+}
